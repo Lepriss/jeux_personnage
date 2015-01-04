@@ -8,5 +8,25 @@
 
 class Personnage
 {
+    private $id;
+    private $degats;
+    private $nom;
+
+    /**
+     * methode qui permet de frapper un personnage
+     */
+    public function frapper(Personnage $perso)
+    {
+
+    }
+
+    /**
+     * methode qui permet de recevoir des degats
+     */
+    public function recevoirDegats()
+    {
+
+    }
+
 
 }
