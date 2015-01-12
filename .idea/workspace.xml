@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2b05f23-9b66-41d6-845c-30e6aec75067" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jeux_personnage.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PersonnagesManager.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Personnage.php" afterPath="$PROJECT_DIR$/Personnage.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -42,14 +39,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Personnage.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Personnage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Personnage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5771144" vertical-offset="112" max-vertical-offset="736">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            <state vertical-scroll-proportion="-107.92308" vertical-offset="0" max-vertical-offset="2944">
+              <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
               <folding>
+                <element signature="n#Personnage#0;n#!!top" expanded="true" />
+                <element signature="n#__construct#0;n#Personnage#0;n#!!top" expanded="true" />
+                <element signature="n#hydrate#0;n#Personnage#0;n#!!top" expanded="true" />
                 <element signature="n#frapper#0;n#Personnage#0;n#!!top" expanded="true" />
                 <element signature="n#recevoirDegats#0;n#Personnage#0;n#!!top" expanded="true" />
+                <element signature="n#getId#0;n#Personnage#0;n#!!top" expanded="true" />
+                <element signature="n#getNom#0;n#Personnage#0;n#!!top" expanded="true" />
+                <element signature="n#getDegats#0;n#Personnage#0;n#!!top" expanded="true" />
+                <element signature="n#setId#0;n#Personnage#0;n#!!top" expanded="true" />
+                <element signature="n#setNom#0;n#Personnage#0;n#!!top" expanded="true" />
+                <element signature="n#setDegats#0;n#Personnage#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonnagesManager.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PersonnagesManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.8772802" vertical-offset="1421" max-vertical-offset="2691">
+              <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+              <folding>
+                <element signature="e#6#88#0#PHP" expanded="true" />
+                <element signature="n#PersonnagesManager#0;n#!!top" expanded="true" />
+                <element signature="n#__construct#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+                <element signature="n#getDb#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+                <element signature="n#setDb#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+                <element signature="n#add#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+                <element signature="n#count#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+                <element signature="n#delete#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+                <element signature="n#exists#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+                <element signature="n#get#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+                <element signature="n#getList#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+                <element signature="n#update#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+                <marker date="1421087988000" expanded="true" signature="816:854" placeholder="INSERT INTO ..." />
+                <marker date="1421087988000" expanded="true" signature="1215:1247" placeholder="SELECT COUNT..personnages..." />
+                <marker date="1421087988000" expanded="true" signature="1438:1472" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -65,6 +97,7 @@
       <list>
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Personnage.php" />
+        <option value="$PROJECT_DIR$/PersonnagesManager.php" />
       </list>
     </option>
   </component>
@@ -101,7 +134,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -122,6 +154,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -146,15 +179,15 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -182,12 +215,18 @@
       <option name="project" value="LOCAL" />
       <updated>1420355051383</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="personnage">
+      <created>1420396855067</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1420396855067</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="23" width="1267" height="773" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -196,7 +235,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2465306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25061226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -248,8 +287,45 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="207">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#__construct#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#hydrate#0;n#Personnage#0;n#!!top" expanded="true" />
             <element signature="n#frapper#0;n#Personnage#0;n#!!top" expanded="true" />
             <element signature="n#recevoirDegats#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#getId#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#getNom#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#getDegats#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#setId#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#setNom#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#setDegats#0;n#Personnage#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Personnage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="207">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#__construct#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#hydrate#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#frapper#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#recevoirDegats#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#getId#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#getNom#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#getDegats#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#setId#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#setNom#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#setDegats#0;n#Personnage#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -280,11 +356,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Personnage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5771144" vertical-offset="112" max-vertical-offset="736">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state vertical-scroll-proportion="-107.92308" vertical-offset="0" max-vertical-offset="2944">
+          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
           <folding>
+            <element signature="n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#__construct#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#hydrate#0;n#Personnage#0;n#!!top" expanded="true" />
             <element signature="n#frapper#0;n#Personnage#0;n#!!top" expanded="true" />
             <element signature="n#recevoirDegats#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#getId#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#getNom#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#getDegats#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#setId#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#setNom#0;n#Personnage#0;n#!!top" expanded="true" />
+            <element signature="n#setDegats#0;n#Personnage#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonnagesManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8772802" vertical-offset="1421" max-vertical-offset="2691">
+          <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <element signature="n#PersonnagesManager#0;n#!!top" expanded="true" />
+            <element signature="n#__construct#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+            <element signature="n#getDb#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+            <element signature="n#setDb#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+            <element signature="n#add#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+            <element signature="n#count#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+            <element signature="n#delete#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+            <element signature="n#exists#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+            <element signature="n#get#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+            <element signature="n#getList#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+            <element signature="n#update#0;n#PersonnagesManager#0;n#!!top" expanded="true" />
+            <marker date="1421087988000" expanded="true" signature="816:854" placeholder="INSERT INTO ..." />
+            <marker date="1421087988000" expanded="true" signature="1215:1247" placeholder="SELECT COUNT..personnages..." />
+            <marker date="1421087988000" expanded="true" signature="1438:1472" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
